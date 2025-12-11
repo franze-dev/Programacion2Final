@@ -1,4 +1,4 @@
-﻿#include "WordsGame.h"
+#include "WordsGame.h"
 
 #include <iostream>
 #include <string>
