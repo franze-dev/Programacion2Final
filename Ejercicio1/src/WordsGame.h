@@ -23,7 +23,6 @@ namespace game
 		void Init() override;
 		void Update() override;
 
-		void LanguageSelector();
 		WordsGame::Word GetWord();
 		pplx::task<std::string> GetRandomWord();
 		pplx::task<std::string> GetDefinition(const std::string& word);
