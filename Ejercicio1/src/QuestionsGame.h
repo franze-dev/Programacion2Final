@@ -44,11 +44,8 @@ namespace game
 
 		void ShuffleOptions(Question& question);
 
-		void CreateQuestionFile(const std::string& path, const Question& q);
 		void ReadQuestionFiles();
-		QuestionsGame::Question ReadQuestionFile(const std::string& questionPath);
-		QuestionsGame::Category ReadCategoryQuestionsFiles(const std::string& categoryName);
-		void CreateQuestionFiles();
-		void CreateCategoryFiles(game::QuestionsGame::Category& colorsCategory);
+		QuestionsGame::Question ReadQuestion(const std::string& questionPath);
+		QuestionsGame::Category ReadCategoryQuestions(const std::string& categoryName);
 	};
 }
